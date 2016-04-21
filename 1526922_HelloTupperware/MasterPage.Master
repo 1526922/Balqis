@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="_1526922_HelloTupperware.MasterPage" %>
+
+<!DOCTYPE html>
+<link href="css/MasterPage.css" rel="stylesheet" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" >
+    <div id="main">
+
+        <div id ="logo">
+            <img src="image/logo.png" />
+            </div>
+
+        <div id="navigation" >
+        <ul class="auto-style1">
+            <li><a class="home-nav" href="default.aspx">HOME</a></li>
+            <li ><a class="product-nav" href="#">PRODUCT</a> </li>
+            <li ><a class="log-nav" href="#">LOG IN</a> </li>
+            <li><a class="contact-nav"href="contactus.aspx">CONTACT US</a></li>
+            <li><a class="about-nav" href="aboutus.aspx">ABOUT US</a></li>
+            <li><a class="warranty-nav" href="warranty.aspx">WARRANTY & DELIVARY</a></li>
+          
+        
+        </ul>
+        </div>
+
+    
+  
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    
+      <footer> 
+          <div id ="social">
+              <a class="social" href="www.facebook.com"><img src="image/facebook-icon.png" /> </a>
+              <a class="social" href="www.twitter.com"> <img src="image/twitter-icon.png" /> </a>
+              <a class="social" href="www.instgram.com"><img src="image/instagram-icon.png" /></a>
+          </div> 
+           <div id ="copy" >
+                <a>This website is copyright of Hello Tupperware 2016</a><p></p>
+                <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> |
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
+                <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+          </div> 
+      </footer>
+ </div>
+      
+    </form>
+</body>
+</html>
