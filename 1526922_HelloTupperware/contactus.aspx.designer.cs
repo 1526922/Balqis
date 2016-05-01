@@ -13,22 +13,31 @@ namespace _1526922_HelloTupperware {
     public partial class contactus {
         
         /// <summary>
-        /// txtname control.
+        /// litoutmsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtname;
+        protected global::System.Web.UI.WebControls.Literal litoutmsg;
         
         /// <summary>
-        /// txtemail control.
+        /// txtsubject control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtemail;
+        protected global::System.Web.UI.WebControls.TextBox txtsubject;
+        
+        /// <summary>
+        /// reqtxtsubject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqtxtsubject;
         
         /// <summary>
         /// txtmsg control.
@@ -40,21 +49,30 @@ namespace _1526922_HelloTupperware {
         protected global::System.Web.UI.WebControls.TextBox txtmsg;
         
         /// <summary>
-        /// Button1 control.
+        /// reqtxtmsg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqtxtmsg;
         
         /// <summary>
-        /// Button2 control.
+        /// btnsend control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnsend;
+        
+        /// <summary>
+        /// btnreset control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnreset;
     }
 }
