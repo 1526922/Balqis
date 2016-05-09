@@ -27,6 +27,7 @@
 
         google.maps.event.addDomListener(window, 'load', initialize);
         </script>
+    
     <div id="place">
             <div id="contact-header">    
             <p>Question? Please leave your message here. We are happy to help.</p>
