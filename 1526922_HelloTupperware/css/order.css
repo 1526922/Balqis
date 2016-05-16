@@ -1,0 +1,17 @@
+﻿body {
+}
+#order {
+ font-size: 12pt;
+ font-style:normal;
+ font-weight:normal;
+ letter-spacing:3px;
+ padding-left:40px;
+ margin-top:30px;
+ margin-left:300px;
+ padding-bottom:10px;
+}
+
+    p .phone {
+    margin-top:0px;
+    margin-bottom:5px;
+    }

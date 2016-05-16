@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="_1526922_HelloTupperware.Admin.admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../css/adminmaster.css" rel="stylesheet" />
+    <title>admin master page</title>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="main">
+
+        <div id ="logo">
+            <img src="../Images/logo.png" />
+            </div>
+
+       
+        <div id ="button"><asp:Button ID="btnHidden1" runat="server" Text="Admin" href="Admin/Admin.aspx" />
+
+        <div id="navigation" >
+        <ul class="auto-style1">
+            <li><a class="home-nav" href="default.aspx">HOME</a></li>
+            <li ><a class="product-nav" href="#">PRODUCT</a> </li>
+            <li ><a class="log-nav" href="login01.aspx">LOG IN</a> </li>
+            <li><a class="contact-nav"href="contactus.aspx">CONTACT US</a></li>
+            <li><a class="about-nav" href="aboutus.aspx">ABOUT US</a></li>
+            <li><a class="warranty-nav" href="warranty.aspx">WARRANTY & DELIVARY</a></li>
+        </ul>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+      <footer> 
+          <div id ="social">
+              <a class="social" href="www.facebook.com">
+                  <img src="../Images/facebook-icon.png" /> </a>
+              <a class="social" href="www.twitter.com">
+                  <img src="../Images/twitter-icon.png" />  </a>
+              <a class="social" href="www.instgram.com">
+                  <img src="../Images/instagram-icon.png" /></a>
+          </div> 
+           <div id ="copy" >
+                <a>This website is copyright of Hello Tupperware 2016</a><p></p>
+                <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> |
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
+                <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+          </div> 
+      </footer>
+ </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

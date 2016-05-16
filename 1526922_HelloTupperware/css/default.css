@@ -38,8 +38,21 @@ height:200px;
 margin-left:10px;
 }
 
+#aboutus {
+padding-top:40px;
+width:auto;
+height:78px;
+margin-bottom:0px;
+}
 
-
+#aboutus p {
+    font-family: Verdana, sans-serif;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+}
 /*new item css*/
 #new-item-sign {
  font-family: Verdana, sans-serif;

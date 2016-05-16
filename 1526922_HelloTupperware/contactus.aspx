@@ -35,12 +35,12 @@
  
                 <div id="submitmsg">
                     <p><asp:Literal ID="litoutmsg" runat="server"></asp:Literal></p>
-                    <p><label>Name</label></p>
-                   <p><input ID="txtn" name="name" placeholder="Name Here" required ></p>
-                    <p><Label>Email</Label></p>
+                    <p><asp:Label ID="lblname" runat="server" Text="Name:"  ></asp:Label></p>
+                   <p><input ID="txtname" name="name" placeholder="Name Here" required ></p>
+                    <p><asp:Label ID="lblemail" runat="server" Text="Email:"  ></asp:Label></p>
                     <p><input ID="txtemail" name="email" type="email" placeholder="Email Here" required ></p>
 
-                    <p><label>Subject</label></p>
+                    <p><asp:Label ID="lblsubject" runat="server" Text="Subject:"  ></asp:Label></p>
                     <p><asp:TextBox ID="txtsubject" runat="server" TextMode="MultiLine" ></asp:TextBox><asp:RequiredFieldValidator ID="reqtxtsubject" runat="server" ErrorMessage="Please state your subject." ControlToValidate="txtsubject"></asp:RequiredFieldValidator></p>
                     
                     

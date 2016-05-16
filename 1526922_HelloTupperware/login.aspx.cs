@@ -21,17 +21,17 @@ namespace _1526922_HelloTupperware
         {
             if (!IsPostBack)
             {
-                SqlConnection regcon = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionStringName"].ConnectionString);
-                regcon.Open();
-                string identify = "Select count(*) from registerClient'" + txtLusername.Text + "' ";
-                SqlCommand newcommand = new SqlCommand(identify, regcon);
-                int temp = Convert.ToInt32(newcommand.ExecuteScalar().ToString());
-                if (temp == 1)
-                {
-                    Response.Write("Existing username");
-                }
+               // SqlConnection regcon = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionStringName"].ConnectionString);
+               // regcon.Open();
+                //string identify = "Select count(*) from registerClient'" + txtLusername.Text + "' ";
+                //SqlCommand newcommand = new SqlCommand(identify, regcon);
+                //int temp = Convert.ToInt32(newcommand.ExecuteScalar().ToString());
+               // if (temp == 1)
+               // {
+                 //   Response.Write("Existing username");
+               // }
 
-                regcon.Close();
+                //regcon.Close();
                 GenerateAutoID();
             } 
         }
@@ -68,10 +68,12 @@ namespace _1526922_HelloTupperware
         {
             SqlCommand newcommand = new SqlCommand(ConfigurationManager.ConnectionStrings["ConnectionStringName"].ConnectionString);
             register.Open();
-            String avaliableuser = "select count(*) form registerClient Where UserName'" + txtLusername.Text + "' ";
+            
+            String avaliableuser = "select count(*) form registerClient WHERE UserName='" + txtLusername.Text + "' ";
             SqlCommand comm = new SqlCommand(avaliableuser, register);
             int temp = Convert.ToInt32(comm.ExecuteScalar().ToString());
             register.Close();
+            
 
             if (temp == 1)
             {
@@ -83,6 +85,7 @@ namespace _1526922_HelloTupperware
                 if (password == txtLpassword.Text)
                 {
                     Session["New"] = txtLusername.Text;
+                    //Response.Redirect("DestinationHere"); to reditrect to other form.
                     Response.Write("Welcome to Hello Tupperware");
                 }
                 else

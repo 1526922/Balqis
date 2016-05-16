@@ -3,7 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="css/default.css" rel="stylesheet" />
    
+    
     <div id="popularsign">
+        <div id ="aboutus">
+       <h2  >About Us</h2>
+   <p>Welcome to Hello Tupperware. Hello Tupperware is an online shop for Tupperware products.  </p>    
+   </div>
     >>Best Seller>>
     </div>
     <div id="popular">

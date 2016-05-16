@@ -21,6 +21,11 @@ margin-right:100px;
     float:left;
 }
 
+#button {
+float:right;
+margin-right:67px;
+
+}
 /*top navigation*/
 #navigation {
     font-family: Verdana, sans-serif;
@@ -46,7 +51,7 @@ margin-right:100px;
     color:white;
 }
 .contact-nav {
-    background-color:crimson;
+    background-color:lightgreen;
     color:white;
 }
 .about-nav {
@@ -57,7 +62,10 @@ margin-right:100px;
     background-color:tomato;
     color:white;
 }
-
+.order-nav {
+background-color:brown;
+color:white;
+}
 }
 
   
@@ -115,4 +123,5 @@ footer {
         font-weight: normal;
         letter-spacing: 3px;
         text-align: center;
+        background-color:lightskyblue;
 }

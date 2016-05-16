@@ -10,16 +10,16 @@
 namespace _1526922_HelloTupperware {
     
     
-    public partial class usermanagement {
+    public partial class userregister {
         
         /// <summary>
-        /// DSregister control.
+        /// SqlRegisterUser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource DSregister;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlRegisterUser;
         
         /// <summary>
         /// GridView1 control.
