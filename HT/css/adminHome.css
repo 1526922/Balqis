@@ -1,0 +1,17 @@
+﻿#homepage {
+     font-family: Verdana, sans-serif;
+    font-size: 15pt;
+    right: 0;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-left:45px;
+    padding-bottom:30px;
+}
+#whole {
+margin-left:45px;
+width:1000px;
+}
+#promoGrib {
+margin-left:45px;
+}

@@ -1,0 +1,36 @@
+﻿body {
+}
+#whole {
+margin-left:40px;
+width:1000px;
+}
+#Product_form {
+    font-family: Verdana, sans-serif;
+    font-size: 12pt;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-left:50px;
+    padding-left: 20px;
+    margin-bottom:40px;
+    padding-top:60px;
+    width:400px;
+    height:auto;
+}
+#Product_form p {
+    width:290px;
+}
+
+#product_data {
+font-family: Verdana, sans-serif;
+    font-size: 10pt;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+    
+}
+    #product_data p {
+    padding-left:80px;
+    }

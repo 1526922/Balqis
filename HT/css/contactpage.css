@@ -1,0 +1,76 @@
+﻿body {
+}
+#whole {
+width:1000px;
+margin-left:40px;
+}
+#place {
+    margin-left:45px;
+    width:1000px;
+    height:680px;
+}
+#contact-header {
+margin-top:40px;
+}
+#contact-header p {
+   
+   font-family:  Verdana, sans-serif;
+   font-style:normal;
+   font-weight:normal;
+   font-size:20px;
+   letter-spacing:3px;
+   line-height: 22.5px;
+   padding-top:50px;
+   padding-left:100px;
+   padding-bottom:20px;
+}
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 12pt;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding-left: 20px;
+}
+    p .contact-info {
+    text-align:left;
+    border-bottom:dotted;
+    border-bottom-color:black;
+    border-bottom-style:dotted;
+    border-bottom-width:1px;
+    font-weight:bold;
+    margin-top:10px;
+}
+    p .care-info {
+     text-align:left;
+    border-bottom:dotted;
+    border-bottom-color:black;
+    border-bottom-style:dotted;
+    border-bottom-width:1px;
+    font-weight:bold;
+    margin-top:10px;
+    }
+
+
+#submitmsg {
+width:450px;
+height:500px;
+float:left;
+margin-right:189px; margin-left:340px;
+margin-bottom:0px;
+padding-bottom:0px;
+}
+p #txtsubject {
+width:400px; height:20px;
+}
+p #txtmsg {
+width:400px; height:80px;
+}
+#location  {
+margin-left:360px;
+padding-bottom:30px;
+}
+
+
+

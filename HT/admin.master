@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <title>Admin master page</title>
+    <!--<link type="text/css" href="/css/adminmaster.css" rel="stylesheet" />-->
+    <link href="css/adminmaster.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server" >
+     <div id="adminlink">
+          <a class="adminlinkhere" runat="server" href="login2.aspx">Admin</a> | <a class="logoutlink" runat="server" href="logout.aspx">Log Out</a> 
+     </div>
+    <div id="main">
+        
+        <div id ="logo">
+            <div id ="logo-icon"><p><img src="Icon/logo.png" alt="logo"/></p>
+            </div>
+           
+        <div id="navigation" >
+        <ul >
+            <li><a class="home-nav" runat="server" href="Default.aspx">HOME</a></li>   
+            <li ><a class="product-nav" runat="server" href="productpage.aspx">PRODUCT</a> </li>
+            <li ><a class="log-nav" runat="server" href="login.aspx">LOG IN</a> </li>
+            <li><a class="contact-nav" runat="server" href ="contactpage.aspx">CONTACT US</a></li>
+            <li><a class="faq-nav" runat="server" href="FAQ.aspx">FAQ</a></li>
+            <li><a class="order-nav" runat="server" href="login.aspx">ORDER FORM</a></li> 
+              
+        </ul>
+        </div>
+        <div id="admin-navigation">
+        <ul>
+            <li><a class="admin-prod" runat="server" href="Admin/adminProd.aspx">Upload Product</a></li>
+            <li><a class="admin-order" runat="server" href="Admin/adminOrder.aspx">Order Detail</a></li>
+            <li><a class="admin-order" runat="server" href="Admin/adminPromoProduct.aspx">Home Page Promotion</a></li>
+        </ul>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+      <footer> 
+          <div id ="social">
+              <a class="social" href="https://www.facebook.com/login/"><img src="/Icon/facebook-icon.png" alt="facebook" /> </a>
+              <a class="social" href="https://twitter.com/login">  <img src="/Icon/twitter-icon.png" alt="twitter" /></a>
+              <a class="social" href="https://www.instagram.com/accounts/login/"><img src="/Icon/instagram-icon.png" alt="IG" /></a>
+          </div> 
+           <div id ="copy" >
+                <p><a>This website is copyright of Hello Tupperware 2016</a></p>
+               <p><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> |
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> |
+                <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a></p>
+          </div> 
+          
+      </footer>
+        </div>
+        </div>
+      
+    </form></body>
+</html>

@@ -1,0 +1,40 @@
+﻿#Aboutus {
+font-family: Verdana, sans-serif;
+    font-size: 15pt;
+    right: 0;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left:100px;
+    padding-bottom:30px;
+}
+#whole {
+margin-left:35px;
+width:1000px;
+}
+h1 {
+font-family: Verdana, sans-serif;
+    font-size: 15pt;
+    right: 0;
+    font-style: normal;
+    letter-spacing: 3px;  
+}
+#promoprod {
+font-family: Verdana, sans-serif;
+    font-size: 15pt;
+    right: 0;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.label {
+    font-family: Verdana, sans-serif;
+    font-size: 19pt;
+    right: 0;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+}    
